@@ -1,0 +1,38 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #edeff0;
+}
+
+header {
+    background-color: white;
+}
+
+header a {
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+header nav li {
+    display: inline-block;
+}
+
+header #logo {
+    font-size: 2em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header nav a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+header nav a {
+    transition: background-color 0.4s;
+}
